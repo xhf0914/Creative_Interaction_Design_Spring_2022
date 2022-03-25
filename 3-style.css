@@ -1,7 +1,8 @@
 body {
-  padding-left: 11em;
-  font-family: Georgia, "Times New Roman",
-       Times, serif;
+  padding-left: 15em;
+  font size=5
+  font-family: ‘Trebuchet MS’, ‘Lucida Sans Unicode’,
+               ‘Lucida Grande’, ‘Lucida Sans’, Arial, sans-serif;
   color: #804040;
   background-color: #EBD6D6 }
  ul.navbar {
@@ -11,7 +12,7 @@ body {
   position: absolute;
   top: 2em;
   left: 1em;
-  width: 9em }
+  width: 12em }
   h1 {
    font-family: Helvetica, Geneva, Arial,
          SunSans-Regular, sans-serif }
