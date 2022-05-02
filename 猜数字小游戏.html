@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>猜数字</title>
+</head>
+<body style="background-color:#EBD6D6;">
+<body>
+    <script src="猜数字.js">  </script>
+    <style type ="text/css">
+
+    body{text-align: center;}
+    footer {
+      font: italic 1em Georgia, serif;
+      margin-top: 1em;
+      padding-top: 1em;
+      border-top: thin dotted }
+
+    .button{
+        background-color:#a56f63;
+        border: 5px;
+        color: white;
+        padding: 5px;
+        text-align: center;
+        text-decoration: none;
+        border-radius:15px;
+        display: inline-block;
+        font-size: 16px;
+      }
+
+      .botton:hover{background-color:#86584d}
+
+      .box1,.box2 {width:50px; height:22px;margin:10px;
+        line-height:22px; border:1px solid #A9BAC9;
+        padding:10px; font-size:20px; }
+      .box2 {border:1px solid #9ECC00;}
+  </style>
+
+<h1 style="color:#C48888;text-align:center;padding:15px;">
+我最爱的猜数字小游戏</h1>
+
+<h4 style="color: #804040;
+background-color: #E1C4C4;font-size:20px;">
+  系统会随机给出一个各个位置数字均不同的四位数。<br>
+    你的任务是在10次机会之内猜出这个数字。<br>
+    每次猜测后，系统会告诉你有几个数字正确，以及有几个数字位置正确。<br>
+    祝你好运~
+  </h4>
+  <INPUT class=box1 id="1" onmouseover="this.className='box2'";
+        onMouseOut="this.className='box1'">
+  <INPUT class=box1 id="2" onmouseover="this.className='box2'";
+        onMouseOut="this.className='box1'">
+  <INPUT class=box1 id="3" onmouseover="this.className='box2'";
+        onMouseOut="this.className='box1'">
+  <INPUT class=box1 id="4" onmouseover="this.className='box2'";
+                onMouseOut="this.className='box1'">
+
+  <button class="button" onclick="f1()">生成随机四位数</button>
+  <button class="button" onclick="result()">结果</button>
+  <button class="button" onclick="answer()">显示答案</button><br></br>
+  <footer>Made by Ann XuHanfeng<br>2022.4
+  <br>
+  <br>
+</html>
