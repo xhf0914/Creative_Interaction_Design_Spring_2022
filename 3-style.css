@@ -35,3 +35,9 @@ body {
   margin-top: 1em;
   padding-top: 1em;
   border-top: thin dotted }
+
+p{ font-size: 20px;}
+  .portrait {
+    position:absolute;
+  right:20%
+  }
